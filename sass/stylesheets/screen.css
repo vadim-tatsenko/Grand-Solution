@@ -1,0 +1,737 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/screen.sass */
+body .container {
+  max-width: 930px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding-left: 22.6px;
+}
+/* line 12, ../sass/screen.sass */
+body .container-fluid {
+  width: 100%;
+}
+/* line 14, ../sass/screen.sass */
+body .row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+/* line 20, ../sass/screen.sass */
+body .row_relative {
+  position: relative;
+}
+/* line 22, ../sass/screen.sass */
+body .row_wrap {
+  flex-wrap: wrap;
+}
+/* line 24, ../sass/screen.sass */
+body .row_center {
+  justify-content: center;
+}
+/* line 26, ../sass/screen.sass */
+body .text_info {
+  margin-right: 22.6px;
+  text-align: left;
+}
+/* line 29, ../sass/screen.sass */
+body .text_info h3 {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 9.82px;
+  liine-height: 18.13px;
+  color: #67676d;
+  margin-bottom: 22px;
+}
+/* line 36, ../sass/screen.sass */
+body .text_info p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 10.58px;
+  line-height: 18.13px;
+  color: #959595;
+  margin-bottom: 40px;
+}
+
+/* line 45, ../sass/screen.sass */
+header {
+  background-image: url("../../images/Rectangle.png");
+  padding-top: 45px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* line 50, ../sass/screen.sass */
+header .logo {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  margin-bottom: 270px;
+  cursor: pointer;
+}
+/* line 59, ../sass/screen.sass */
+header .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  font-size: 15.71px;
+}
+/* line 65, ../sass/screen.sass */
+header .logo img {
+  height: 31px;
+  width: 32px;
+  margin-right: 7px;
+}
+/* line 72, ../sass/screen.sass */
+header .main_text {
+  margin-bottom: 290px;
+}
+/* line 74, ../sass/screen.sass */
+header .main_text h1 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 45.3px;
+  color: #fff;
+  margin-bottom: 17px;
+}
+/* line 80, ../sass/screen.sass */
+header .main_text p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 9.82px;
+  color: #fff;
+  line-height: 18.13px;
+}
+
+/* line 88, ../sass/screen.sass */
+#something_New {
+  padding: 85px 0px 120px;
+}
+/* line 91, ../sass/screen.sass */
+#something_New .text_block {
+  width: 49%;
+  margin-right: 1%;
+}
+/* line 94, ../sass/screen.sass */
+#something_New .text_block h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 26.5px;
+  line-height: 18.13px;
+  color: #222626;
+  margin-bottom: 25px;
+}
+/* line 101, ../sass/screen.sass */
+#something_New .text_block p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 10.58px;
+  line-height: 18.13px;
+  color: #959595;
+  margin-bottom: 25px;
+}
+/* line 109, ../sass/screen.sass */
+#something_New .text_block:nth-child(3) {
+  margin-top: 120px;
+}
+/* line 113, ../sass/screen.sass */
+#something_New .iphone {
+  position: absolute;
+  top: -560px;
+  right: 30px;
+}
+/* line 117, ../sass/screen.sass */
+#something_New .iphone img {
+  height: 650px;
+}
+/* line 122, ../sass/screen.sass */
+#something_New .images_row {
+  margin: 40px 0px 75px;
+}
+/* line 124, ../sass/screen.sass */
+#something_New .images_row .block_info {
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 40px 42px 45px 33px;
+}
+/* line 128, ../sass/screen.sass */
+#something_New .images_row .block_info h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 22.67px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+/* line 134, ../sass/screen.sass */
+#something_New .images_row .block_info p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 9.82px;
+  line-height: 18.13px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+/* line 141, ../sass/screen.sass */
+#something_New .images_row .block_info span {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 10.58px;
+  line-hieght: 18.13px;
+  color: #fff;
+}
+/* line 147, ../sass/screen.sass */
+#something_New .images_row .block_info a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 150, ../sass/screen.sass */
+#something_New .images_row .block_info img {
+  width: 13px;
+  height: 5px;
+  margin-left: 12px;
+}
+/* line 156, ../sass/screen.sass */
+#something_New .first_row .block_info:nth-child(1) {
+  background-color: #f5989d;
+}
+/* line 158, ../sass/screen.sass */
+#something_New .first_row .block_info:nth-child(2) {
+  background-color: #615f7d !important;
+}
+/* line 160, ../sass/screen.sass */
+#something_New .first_row .block_info:nth-child(3) {
+  background-image: url("../../images/our_clients.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* line 165, ../sass/screen.sass */
+#something_New .second_row .block_info:nth-child(1) {
+  background-image: url("../../images/sign_up.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  flex: 2;
+}
+/* line 169, ../sass/screen.sass */
+#something_New .second_row .block_info:nth-child(1) p {
+  margin-bottom: 50px;
+}
+/* line 171, ../sass/screen.sass */
+#something_New .second_row .block_info:nth-child(2) {
+  background-color: #82ca9c;
+}
+/* line 174, ../sass/screen.sass */
+#something_New h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 26.44px;
+  line-height: 18.13px;
+  margin-bottom: 50px;
+}
+
+/* line 182, ../sass/screen.sass */
+#more_power {
+  background-image: url("../../images/more_power.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 350px 0px 105px;
+}
+/* line 186, ../sass/screen.sass */
+#more_power .block_info {
+  width: 380px;
+  padding: 40px 42px 45px 33px;
+}
+/* line 189, ../sass/screen.sass */
+#more_power .block_info h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 45.33px;
+  color: #fff;
+  margin-bottom: 22px;
+}
+/* line 195, ../sass/screen.sass */
+#more_power .block_info p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 9.82px;
+  line-height: 18.13px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+/* line 202, ../sass/screen.sass */
+#more_power .block_info span {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 10.58px;
+  line-height: 18.13px;
+  color: #fff;
+}
+/* line 208, ../sass/screen.sass */
+#more_power .block_info a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+/* line 212, ../sass/screen.sass */
+#more_power .block_info img {
+  width: 13px;
+  height: 5px;
+  margin-left: 12px;
+}
+
+/* line 219, ../sass/screen.sass */
+#reasons {
+  padding: 95px 0px 125px;
+  background-color: #82ca9c;
+}
+/* line 222, ../sass/screen.sass */
+#reasons h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 26.44px;
+  line-height: 18.13px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+/* line 231, ../sass/screen.sass */
+#reasons .text_info h3 {
+  color: #fff;
+}
+/* line 233, ../sass/screen.sass */
+#reasons .text_info p {
+  color: #fff;
+}
+
+/* line 237, ../sass/screen.sass */
+#buy_now {
+  padding: 78px 0px 110px;
+  background-color: #f6f7fa;
+}
+/* line 241, ../sass/screen.sass */
+#buy_now .card {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  padding: 37px 53px 42px 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  width: 38%;
+}
+/* line 253, ../sass/screen.sass */
+#buy_now .card .card__type {
+  background-color: #ededee;
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px 8px 5px 9px;
+  border: 1px solid #eeeeef;
+  margin-bottom: 18px;
+}
+/* line 260, ../sass/screen.sass */
+#buy_now .card .card__type span {
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 8.31px;
+  line-height: 16.62px;
+  color: #fff;
+}
+/* line 266, ../sass/screen.sass */
+#buy_now .card h2 {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 22.69px;
+  line-height: 30.26px;
+  color: #2e3b4e;
+  margin-bottom: 20px;
+}
+/* line 273, ../sass/screen.sass */
+#buy_now .card p {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 10.59px;
+  line-height: 18.91px;
+  color: #8297a7;
+  margin-bottom: 20px;
+}
+/* line 279, ../sass/screen.sass */
+#buy_now .card .card__buy_now {
+  padding: 14px 21px 13px 23px;
+  border: 1px solid #bfe2cd;
+  margin-bottom: 15px;
+  background-color: #acdcbd;
+}
+/* line 284, ../sass/screen.sass */
+#buy_now .card .card__buy_now:hover {
+  background-color: #29603c;
+}
+/* line 286, ../sass/screen.sass */
+#buy_now .card .card__buy_now a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 9.83px;
+  line-height: 16.62px;
+  color: #fff;
+}
+/* line 295, ../sass/screen.sass */
+#buy_now .card .card__platforms a {
+  margin-right: 15px;
+}
+/* line 297, ../sass/screen.sass */
+#buy_now .card .card__platforms a i {
+  color: #696969;
+}
+/* line 300, ../sass/screen.sass */
+#buy_now .card:hover {
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 20px 10px #cecece;
+  -moz-box-shadow: 0px 0px 20px 10px #cecece;
+  -ms-box-shadow: 0px 0px 20px 10px #cecece;
+  -o-box-shadow: 0px 0px 20px 10px #cecece;
+  box-shadow: 0px 0px 20px 10px #cecece;
+}
+/* line 304, ../sass/screen.sass */
+#buy_now .card:hover .card__type {
+  background-color: #902b90;
+}
+
+/* line 309, ../sass/screen.sass */
+footer {
+  background-color: #192431;
+  padding: 100px 0px 120px;
+}
+/* line 312, ../sass/screen.sass */
+footer .text_info {
+  width: 46%;
+  margin-right: 11%;
+}
+/* line 315, ../sass/screen.sass */
+footer .text_info h3 {
+  color: #f6f7fa;
+}
+/* line 317, ../sass/screen.sass */
+footer .text_info p {
+  color: #f6f7fa;
+}
+/* line 320, ../sass/screen.sass */
+footer .form_wrapper {
+  width: 38.5%;
+}
+/* line 322, ../sass/screen.sass */
+footer .form_wrapper h3 {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 9.82px;
+  line-height: 18.13px;
+  color: #f6f7fa;
+  margin-bottom: 22px;
+}
+/* line 328, ../sass/screen.sass */
+footer .form_wrapper form {
+  margin-bottom: 15px;
+}
+/* line 330, ../sass/screen.sass */
+footer .form_wrapper form div {
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+/* line 337, ../sass/screen.sass */
+footer .form_wrapper form input[type='email'] {
+  height: 40px;
+  width: 85%;
+  padding-left: 15px;
+}
+/* line 341, ../sass/screen.sass */
+footer .form_wrapper form button {
+  width: 15%;
+  display: inline-block;
+  background-color: #76a78d;
+  border: none;
+  color: #fff;
+}
+/* line 347, ../sass/screen.sass */
+footer .form_wrapper form button:hover {
+  background-color: #669d80;
+}
+/* line 350, ../sass/screen.sass */
+footer .form_wrapper p {
+  color: #57697f;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 9.07px;
+  line-height: 13.6px;
+}
+/* line 356, ../sass/screen.sass */
+footer .general_info_block {
+  width: 8%;
+  margin-right: 5%;
+}
+/* line 359, ../sass/screen.sass */
+footer .general_info_block h3 {
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 9.82px;
+  line-height: 18.13px;
+  color: #f6f7fa;
+  margin-bottom: 22px;
+}
+/* line 366, ../sass/screen.sass */
+footer .general_info_block p a {
+  text-decoration: none;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 9.82px;
+  line-height: 18.13px;
+  color: #f6f7fa;
+}
+
+/*! ----------------------------------------0->320px------------------------------------- */
+@media(min-width: 0px) and (max-width: 320px) {
+  /* line 378, ../sass/screen.sass */
+  body .container {
+    padding-left: 10px;
+  }
+
+  /* line 381, ../sass/screen.sass */
+  header .row:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 385, ../sass/screen.sass */
+  header .main_text {
+    margin-bottom: 290px;
+  }
+  /* line 387, ../sass/screen.sass */
+  header .main_text h1 {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 45.3px;
+    color: #fff;
+    margin-bottom: 17px;
+  }
+  /* line 393, ../sass/screen.sass */
+  header .main_text p {
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 9.82px;
+    color: #fff;
+    line-height: 18.13px;
+  }
+
+  /* line 402, ../sass/screen.sass */
+  #something_New .row {
+    flex-wrap: wrap;
+  }
+  /* line 404, ../sass/screen.sass */
+  #something_New .text_block {
+    width: 100%;
+  }
+  /* line 406, ../sass/screen.sass */
+  #something_New .text_block:nth-child(3) {
+    margin-top: 0px;
+  }
+  /* line 408, ../sass/screen.sass */
+  #something_New .iphone {
+    display: none;
+  }
+  /* line 411, ../sass/screen.sass */
+  #something_New .images_row .block_info {
+    width: 98%;
+    margin-right: 2%;
+  }
+
+  /* line 416, ../sass/screen.sass */
+  #reasons .row {
+    flex-wrap: wrap;
+  }
+
+  /* line 420, ../sass/screen.sass */
+  #buy_now .card {
+    width: 100%;
+  }
+  /* line 422, ../sass/screen.sass */
+  #buy_now .row {
+    flex-wrap: wrap;
+  }
+
+  /* line 426, ../sass/screen.sass */
+  footer .row {
+    flex-wrap: wrap;
+  }
+  /* line 428, ../sass/screen.sass */
+  footer .text_info {
+    width: 100%;
+  }
+  /* line 431, ../sass/screen.sass */
+  footer .form_wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* line 435, ../sass/screen.sass */
+  footer .general_info_block {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+}
+@media(min-width: 321px) and (max-width: 660px) {
+  /* line 443, ../sass/screen.sass */
+  body .container {
+    padding-left: 10px;
+  }
+
+  /* line 446, ../sass/screen.sass */
+  header .row:nth-child(2) {
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 450, ../sass/screen.sass */
+  header .main_text {
+    margin-bottom: 290px;
+  }
+  /* line 452, ../sass/screen.sass */
+  header .main_text h1 {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 45.3px;
+    color: #fff;
+    margin-bottom: 17px;
+  }
+  /* line 458, ../sass/screen.sass */
+  header .main_text p {
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 9.82px;
+    color: #fff;
+    line-height: 18.13px;
+  }
+
+  /* line 472, ../sass/screen.sass */
+  #something_New .row {
+    flex-wrap: wrap;
+  }
+  /* line 474, ../sass/screen.sass */
+  #something_New .text_block {
+    width: 100%;
+  }
+  /* line 476, ../sass/screen.sass */
+  #something_New .text_block:nth-child(3) {
+    margin-top: 0px;
+  }
+  /* line 478, ../sass/screen.sass */
+  #something_New .iphone {
+    display: none;
+  }
+  /* line 482, ../sass/screen.sass */
+  #something_New .images_row .block_info {
+    width: 98%;
+    margin-right: 2%;
+  }
+
+  /* line 491, ../sass/screen.sass */
+  #more_power .block_info {
+    width: 100%;
+  }
+
+  /* line 498, ../sass/screen.sass */
+  #reasons .row {
+    flex-wrap: wrap;
+  }
+
+  /* line 506, ../sass/screen.sass */
+  #buy_now .card {
+    width: 90%;
+  }
+  /* line 508, ../sass/screen.sass */
+  #buy_now .row {
+    flex-wrap: wrap;
+  }
+
+  /* line 515, ../sass/screen.sass */
+  footer .row {
+    flex-wrap: wrap;
+  }
+  /* line 517, ../sass/screen.sass */
+  footer .text_info {
+    width: 100%;
+  }
+  /* line 520, ../sass/screen.sass */
+  footer .form_wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* line 524, ../sass/screen.sass */
+  footer .general_info_block {
+    width: 32%;
+    margin: 0px;
+  }
+}
